@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+nav p{
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 7px;
+}
+nav ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.sidebar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 5%;
+}
+.sidebar p{
+    color: #fa054e;
+    font-size: 15px;
+    font-weight: bold;
+}
+.sidebar h2{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.right-side h5{
+    text-align: right;
+    line-height: 30px;
+}
+hr{
+    width: 90%;
+    margin: auto;
+    border: none;
+    height: 1px;
+    background: #ccc;
+}
+.col img{
+    width: 250px;
+    height: 230px;
+}
+.col{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 5%;
+}
+.col p{
+    font-size: 13px;
+    line-height: 21px;
+    max-width: 550px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.row h3{
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 1.8rem;
+    position: relative;
+}
+.row h3::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 1px;
+    background: #ff004d;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -1.8rem;
+}
+.footer{
+    padding: 4rem 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background:#10093c;
+    color: #fff;
+}
+.footer-box h4{
+    font-size: 30px;
+}
+.footer-box p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.footer-box h5{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+}
+.footer-box h5::after{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 1px;
+    background:red;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left:0.5rem;
+}
+
+.footer-box-1 p{
+    margin-top: 50px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+.footer-box a{
+    color: #fff;
+    opacity: 0.8;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+body{
+    overflow-y: hidden;
+}
